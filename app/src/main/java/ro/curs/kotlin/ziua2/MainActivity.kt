@@ -40,10 +40,12 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ){
-                    GreetingImage(
-                        message = stringResource(R.string.happy_birthday_text),
-                        from = stringResource(R.string.signature_text)
-                    )
+//                    GreetingImage(
+//                        message = stringResource(R.string.happy_birthday_text),
+//                        from = stringResource(R.string.signature_text)
+//                    )
+
+                    ArticleScreen()
                 }
             }
         }
