@@ -40,6 +40,6 @@ fun TaskManagerScreen(modifier: Modifier = Modifier) {
 @Composable
 fun PreviewTaskManagerScreen() {
     Ziua2Theme {
-        ArticleScreen()
+        TaskManagerScreen()
     }
 }

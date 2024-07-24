@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
 //                        message = stringResource(R.string.happy_birthday_text),
 //                        from = stringResource(R.string.signature_text)
 //                    )
-                    TaskManagerScreen()
+                    ComposeQuadrantScreen()
                 }
             }
         }
